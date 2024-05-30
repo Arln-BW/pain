@@ -73,7 +73,7 @@ span.other{
     0 0 50px #e9e3e5, 
     0 0 100px #e9e3e5; 
     animation: animate 15s linear infinite;
-    animation-duration: calc(140s / var(--i));
+    animation-duration: calc(200s / var(--i));
 }
 
 .bubbles span:nth-child(even){
@@ -103,7 +103,7 @@ span.other{
         position: absolute;
         transform-origin: bottom center;
         left: 28%;
-        top: 0;
+        top: -10%;
         box-shadow: inset 0px 0px 5px black ,inset 0px 0px 34px green,
         inset 0px 0px 9px green,
         inset 0px 0px 39px rgb(173, 250, 57),
